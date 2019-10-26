@@ -8,7 +8,7 @@ The endpoint of the rest api can be accessed from the following link:
 http://localhost:5000/api/data?foo=1
 ```
 
-The application has this GET route which accepts a foo variable, increments the value of it and sends it to a socket server.
+The application has this GET route which accepts a foo variable, increments the value of it and sends it to a socket server. The socket server outputs the incremented value in the console.
 
 ### Installation
 
