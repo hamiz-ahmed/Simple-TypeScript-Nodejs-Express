@@ -27,7 +27,7 @@ class DataController {
                 res = "The value of foo variable has been send to the socket";
             }
             else {
-                res = "Please assign the value of of foo variable";
+                res = "Please assign the value of foo variable";
             }
             response.send({ "result": res });
         };

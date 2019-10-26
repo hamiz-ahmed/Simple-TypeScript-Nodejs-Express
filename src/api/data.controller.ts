@@ -47,7 +47,7 @@ class DataController {
     }
 
     else {
-      res = "Please assign the value of of foo variable";
+      res = "Please assign the value of foo variable";
     }
 
     response.send({ "result": res });
